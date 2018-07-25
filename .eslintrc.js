@@ -24,17 +24,18 @@ module.exports = {
         "no-unused-vars": "warn",
         "constructor-super": "warn",
         "valid-typeof": "warn",
+        "no-case-declarations": "warn",
         "no-console":0,
         "indent": [
-            "error",
+            "warn",
             4
         ],
         "linebreak-style": [
-            "error",
+            "warn",
             "unix"
         ],
         "semi": [
-            "error",
+            "warn",
             "always"
         ]
     },
