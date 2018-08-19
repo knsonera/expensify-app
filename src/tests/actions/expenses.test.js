@@ -10,7 +10,7 @@ test('Should setup remove expense action object', () => {
 
 // setup testcase
 // call editExpense {note: "New note"}
-// make asser
+// make assersion
 
 test('Should setup edit expense action object', () => {
     const action = editExpense('123abc', { note: "New note" });
